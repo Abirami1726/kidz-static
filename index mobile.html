@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KidzWorld Shop</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f7f7f7;
+        }
+
+        header {
+            background-color: #4caf50;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        section {
+            padding: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            margin: 10px;
+            text-align: center;
+            max-width: 300px;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 600px) {
+            .product {
+                max-width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>KidzWorld Shop</h1>
+    </header>
+
+    <nav>
+        <a href="#">Home</a> |
+        <a href="#">Toys</a> |
+        <a href="#">Books</a> |
+        <a href="#">Clothing</a>
+    </nav>
+
+    <section>
+        <h2>Shop for KidzWorld</h2>
+
+        <div class="product">
+            <h3>Toy 1</h3>
+            <p>Description: A fun toy for kids.</p>
+            <p>Price: $19.99</p>
+            <button>Add to Cart</button>
+        </div>
+
+        <div class="product">
+            <h3>Book 1</h3>
+            <p>Description: Educational and entertaining book.</p>
+            <p>Price: $12.99</p>
+            <button>Add to Cart</button>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 KidzWorld Shop. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
